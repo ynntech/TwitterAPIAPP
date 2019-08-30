@@ -18,7 +18,7 @@ class TweetTableViewCell: UITableViewCell {
     // スクリーンネーム(@ktanaka117)を表示するUILabel
 
     @IBOutlet weak var screenNameLabel: UILabel!
-    // ツイート本文を表示するUILabel
+    
     
     @IBOutlet weak var textContentLabel: UILabel!
 
