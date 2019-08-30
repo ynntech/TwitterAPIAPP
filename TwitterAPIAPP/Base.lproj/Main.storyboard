@@ -75,7 +75,7 @@
                                             <outlet property="iconImageView" destination="FAU-j1-WIF" id="etA-K9-CSW"/>
                                             <outlet property="nameLabel" destination="bnF-C1-iH6" id="3Pl-uu-cHQ"/>
                                             <outlet property="screanNameLabel" destination="LzB-Tj-lpO" id="8PP-TB-jYO"/>
-                                            <outlet property="screenNameLabel" destination="LzB-Tj-lpO" id="PRi-Ac-l3b"/>
+                                            <outlet property="screenNameLabel" destination="LzB-Tj-lpO" id="y2x-Zq-dhv"/>
                                             <outlet property="textContentLabel" destination="8cO-d6-x01" id="yJk-Si-PCy"/>
                                         </connections>
                                     </tableViewCell>

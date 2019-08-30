@@ -16,6 +16,8 @@ class TimelineViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        tableView.delegate = self
+        tableView.dataSource = self
         // ダミーデータの生成
         let user = User(id: "1", screenName: "ynntech", name: "nakaya", profileImageURL: "https://pbs.twimg.com/profile_images/786584678660616196/43jmIqIR.jpg")
         let tweet = Tweet(id: "01", text: "てすとついーと", user: user)
@@ -28,8 +30,6 @@ class TimelineViewController: UIViewController {
         // tableViewのリロード
         tableView.reloadData()
  
-        tableView.delegate = self
-        tableView.dataSource = self
         
         
         /*
